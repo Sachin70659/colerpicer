@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%vh;
+    width: 100vw;
+    background-image:linear-gradient(to right,rgb(83, 83, 233),rgb(27, 170, 223));
+     display: grid;
+    place-items:center;    }
+#main{
+    margin: 10px;
+    padding: 10px;
+    height: 400px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-transform: capitalize;
+
+}
+h3{
+    position: absolute;
+   top:130px;
+   margin-bottom: 10px;
+    right:427px;
+    box-shadow: 2px 2px 2px black;
+}
+#mybutton{
+   position: absolute;
+    border-radius: 10px;
+    background-image:linear-gradient(to right,rgb(233, 83, 201),rgb(27, 170, 223));
+    left:120px;
+    height: 30px;
+    width: 200px;
+    text-shadow: 2px 2px 2px red;
+    color:bisque;
+    box-shadow: 2px 2px 2px black;
+
+}
+#mybutton2{
+    position: absolute;
+    border-radius: 10px;
+    background-image:linear-gradient(to right,rgb(233, 83, 201),rgb(27, 170, 223));
+    height: 30px;
+    width: 200px;
+    text-shadow: 2px 2px 2px red;
+    color:bisque;
+    box-shadow: 2px 2px 2px black;
+}
+#ram{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    color:bisque;
+    position: absolute;
+    top:250px;
+    left: 100px;
+    height: 60px;
+   background-color: rgba(111, 196, 32, 0.884);
+   text-shadow: 2px 2px 2px red;
+   box-shadow: 2px 2px 2px black;
+}
+p{  
+    height: 30px;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 4px;
+    text-transform: capitalize;
+    background-image:linear-gradient(to right,rgb(233, 83, 201),rgb(27, 170, 223));
+    position:absolute;
+    bottom:10px;
+    left:260px;
+    color:white;
+    text-shadow: 2px 2px 2px red;
+    box-shadow: 2px 4px 1px black;
+}
